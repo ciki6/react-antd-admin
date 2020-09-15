@@ -4,6 +4,7 @@
   "author": "LuXiaofu <18694942447@163.com>",
   "license": "MIT",
   "private": true,
+  "homepage": "https://ciki6.github.io/react-antd-admin",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.0.2",

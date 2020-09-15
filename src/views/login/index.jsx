@@ -10,7 +10,7 @@ const Login = (props) => {
     const {token, login, getUserInfo} = props;
 
     const [loading, setLoading] = useState(false);
-    const [form] = Form.useForm();
+    // const [form] = Form.useForm();
 
     const handleLogin = (username, password) => {
         // 登录完成后 发送请求 调用接口获取用户信息
