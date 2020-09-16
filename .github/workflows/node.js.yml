@@ -17,7 +17,7 @@ jobs:
     - name: Install and Build
       run: |
         yarn install
-        yarn build
+        CI=true yarn build
      
     # react项目的FOLDER为build，vue项目改为dist   
     - name: Deploy
