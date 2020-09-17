@@ -6,6 +6,7 @@
   "private": true,
   "homepage": "https://ciki6.github.io/react-antd-admin",
   "dependencies": {
+    "@ant-design/icons": "^4.2.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.0.2",
     "@testing-library/user-event": "^12.1.4",
@@ -72,6 +73,7 @@
     "commitizen": "^4.0.3",
     "craco-less": "^1.17.0",
     "cz-conventional-changelog": "^3.0.2",
+    "mini-css-extract-plugin": "^0.11.2",
     "mockjs": "^1.1.0",
     "user-agent": "^1.0.4"
   },

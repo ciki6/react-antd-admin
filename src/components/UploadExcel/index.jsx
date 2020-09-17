@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { PropTypes } from "prop-types";
-import { Upload, Icon, message } from "antd";
+import { Upload,  message } from "antd";
+import { InboxOutlined } from '@ant-design/icons'
 import XLSX from "xlsx";
 const { Dragger } = Upload;
 
@@ -85,17 +86,17 @@ class UploadExcel extends Component {
   };
   render() {
     return (
-      <div>
-        <Dragger {...this.draggerProps()}>
-          <p className="ant-upload-drag-icon">
-            <Icon type="inbox" />
-          </p>
-          <p className="ant-upload-text">
-            Click or drag file to this area to upload
-          </p>
-        </Dragger>
-      </div>
-    );
+		<div>
+			<Dragger {...this.draggerProps()}>
+				<p className="ant-upload-drag-icon">
+					<InboxOutlined />
+				</p>
+				<p className="ant-upload-text">
+					Click or drag file to this area to upload
+				</p>
+			</Dragger>
+		</div>
+	)
   }
 }
 

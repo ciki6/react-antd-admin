@@ -1,4 +1,5 @@
 const CracoLessPlugin = require('craco-less');
+const MiniCssExtractPlugin =require("mini-css-extract-plugin")
 const path = require('path')
 
 const pathResolve = pathUrl => path.join(__dirname, pathUrl)
@@ -29,6 +30,11 @@ module.exports = {
                     },
                 },
             },
-        },
+        },{
+            plugin: MiniCssExtractPlugin,
+            options: {
+                ignoreOrder: true
+            }
+        }
     ],
 };

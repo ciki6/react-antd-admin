@@ -8,22 +8,22 @@ const users = {
   "admin-token": {
     id: "admin",
     role: "admin",
-    name: "难凉热血",
-    avatar: "https://s1.ax1x.com/2020/04/28/J5hUaT.jpg",
+    name: "ciki6",
+    avatar: "https://avatars1.githubusercontent.com/u/12492451?s=60&v=4",
     description: "拥有系统内所有菜单和路由权限",
   },
   "editor-token": {
     id: "editor",
     role: "editor",
     name: "编辑员",
-    avatar: "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
+    avatar: "https://avatars1.githubusercontent.com/u/12492451?s=60&v=4",
     description:"可以看到除户管理页面之外的所有页面",
   },
   "guest-token": {
     id: "guest",
     role: "guest",
     name: "游客",
-    avatar: "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
+    avatar: "https://avatars1.githubusercontent.com/u/12492451?s=60&v=4",
     description:"仅能看到Dashboard、开发文档、权限测试和关于作者四个页面",
   },
 };
