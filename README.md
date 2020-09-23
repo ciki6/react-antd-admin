@@ -3,6 +3,8 @@
 
 基于react的后台管理模板
 
+[页面预览](https://ciki6.github.io/react-antd-admin)
+
 ## 功能
 
 ```bash
