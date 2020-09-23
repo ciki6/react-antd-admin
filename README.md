@@ -68,8 +68,8 @@
 │   └─index.js                # 源码入口
 ├── .env.development          # 开发环境变量配置
 ├── .env.production           # 生产环境变量配置
-├── config-overrides.js       # 对cra的webpack自定义配置
-├── deploy.sh                 # CI部署脚本
-├── .travis.yml               # 自动化CI配置
+├── .gitignore                # git版本控制忽略文件
+├── .prettierrc.js            # perttire配置文件
+├── craco.config.js           # 对cra的webpack自定义配置
 └── package.json              # package.json
 ```
