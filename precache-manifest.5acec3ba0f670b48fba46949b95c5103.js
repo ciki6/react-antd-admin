@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ada5df5f525934b58944c945640406ea",
+    "revision": "6795fc20e7dac31c60e1445b42b43d6e",
     "url": "/react-antd-admin/index.html"
   },
   {
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-antd-admin/static/css/UploadExcel.ddfa7264.chunk.css"
   },
   {
-    "revision": "ffc29dc2ba70c6c0fe93",
-    "url": "/react-antd-admin/static/css/main.c6e46ed8.chunk.css"
+    "revision": "445db9744822331d97b7",
+    "url": "/react-antd-admin/static/css/main.8999faf6.chunk.css"
   },
   {
     "revision": "fd059171973a6a9d1ae2",
@@ -236,7 +236,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-antd-admin/static/js/Zip.962eb4b4.chunk.js"
   },
   {
-    "revision": "ffc29dc2ba70c6c0fe93",
+    "revision": "445db9744822331d97b7",
     "url": "/react-antd-admin/static/js/main.8c308ea0.chunk.js"
   },
   {
